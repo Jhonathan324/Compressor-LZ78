@@ -31,8 +31,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add directory="include" />
 		</Compiler>
-		<Unit filename="sources/main.cpp" />
+		<Unit filename="include/LZ78.h" />
+		<Unit filename="src/LZ78.cpp" />
+		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
