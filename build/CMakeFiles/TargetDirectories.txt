@@ -1,0 +1,3 @@
+C:/Users/17898981/projetos/Compressor LZ78/build/CMakeFiles/Compressor.dir
+C:/Users/17898981/projetos/Compressor LZ78/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/17898981/projetos/Compressor LZ78/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\17898981\PROJETOS\COMPRESSOR LZ78\CMAKELISTS.TXT
+setlocal
+C:\Users\17898981\cmake\bin\cmake.exe "-SC:/Users/17898981/projetos/Compressor LZ78" "-BC:/Users/17898981/projetos/Compressor LZ78/build" --check-stamp-file "C:/Users/17898981/projetos/Compressor LZ78/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
