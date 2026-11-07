@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 4.5.0)
 
-project(Compressor_LZ78 LANGUAGES CXX)
+project(Compressor-LZ78 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
