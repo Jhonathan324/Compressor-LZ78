@@ -11,7 +11,7 @@ Str_dicio::Str_dicio(){
 
 // Cria dicionario (metodo que sera herdado)
 void Str_dicio::criar_dic(string *index, string *values, int tamanho){
-    // Libera o dicionário anterior, caso exista
+    //libera o dicionario anterior
     if (dic != nullptr) {
         for (int i = 0; i < tam; i++) {
             delete[] dic[i];
@@ -31,7 +31,7 @@ void Str_dicio::criar_dic(string *index, string *values, int tamanho){
     }
 }
 
-// Exibe o dicionário
+// Exibe o dicionario
 void Str_dicio::print() const {
     for (int i = 0; i < tam; i++) {
         cout << "{" << dic[i][0] << " : " << dic[i][1] << "} ";
@@ -39,12 +39,12 @@ void Str_dicio::print() const {
     cout << "\n";
 }
 
-// Retorna o tamanho do dicionário
+// Retorna o tamanho do dicionario
 int Str_dicio::get_tam() const {
     return tam;
 }
 
-// Retorna uma entrada do dicionário
+// Retorna uma entrada do dicionario
 string* Str_dicio::get_entry(int i) const {
     if (i < 0 || i >= tam) {
         return nullptr;
