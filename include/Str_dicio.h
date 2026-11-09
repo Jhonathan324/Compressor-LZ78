@@ -7,25 +7,28 @@ using namespace std;
 
 class Str_dicio{
     protected:
-        string **dic;
+        //atributos
+        string **dic;  //atributo que sera herdado
         int tam;
 
     public:
+        //construtor
         Str_dicio();
 
+        //metodo para criar dicionario
         void criar_dic(string *index, string *values, int tamanho);
 
+        //impressao de dicionario
         void print() const;
-        
+
+        //retorna o tamanho do dicionario 
         int get_tam() const;
-        
+
+        //ver um elemento do dicionario
         string* get_entry(int i) const;
-        
+
+        //destrutor
         ~Str_dicio();
 };
-
-//  Matriz arr(3, 3, 2, 2) <-- 3 dimensões, 3 matrizes 2x2
-//  Matriz arz(2, 3, 3)
-//  Matriz arx(3, {2, 3, 3})
 
 #endif
